@@ -117,7 +117,7 @@ extension FriendController {
         message.text = text
         message.date = Date().addingTimeInterval(-minutesAgo * 60)
         message.isSender = isSender
-        return messagegit init
+        return message
     }
     
     func loadData() {

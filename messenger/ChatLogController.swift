@@ -71,26 +71,8 @@ class ChatLogController: UICollectionViewController, UICollectionViewDelegateFlo
     
     var bottomConstraint: NSLayoutConstraint?
     
-    lazy var fetchedResultsController: NSFetchedResultsController = {
-        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Message")
-        fetchRequest.sortDescriptors = [NSSortDescriptor(key: "date", ascending: true)]
-        let delegate = UIApplication.shared.delegate as? AppDelegate
-        let context = delegate?.persistentContainer.viewContext
-
-        let frc = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: context!, sectionNameKeyPath: nil, cacheName: nil)
-        return frc
-    }()
-        
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        do {
-            try fetchedResultsController.performFetch()
-            print(123)
-        } catch let err {
-            print(err)
-        }
         
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Simulate", style: .plain, target: self, action: #selector(simulate))
         
