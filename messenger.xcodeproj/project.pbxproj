@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E73034E825E7EB1A00E21BA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73034E725E7EB1A00E21BA5 /* AppDelegate.swift */; };
 		E73034EA25E7EB1A00E21BA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73034E925E7EB1A00E21BA5 /* SceneDelegate.swift */; };
-		E73034EC25E7EB1A00E21BA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73034EB25E7EB1A00E21BA5 /* ViewController.swift */; };
+		E73034EC25E7EB1A00E21BA5 /* FriendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73034EB25E7EB1A00E21BA5 /* FriendController.swift */; };
 		E73034EF25E7EB1A00E21BA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73034ED25E7EB1A00E21BA5 /* Main.storyboard */; };
 		E73034F225E7EB1A00E21BA5 /* messenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E73034F025E7EB1A00E21BA5 /* messenger.xcdatamodeld */; };
 		E73034F425E7EB1C00E21BA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73034F325E7EB1C00E21BA5 /* Assets.xcassets */; };
@@ -27,7 +27,7 @@
 		E73034E425E7EB1A00E21BA5 /* messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73034E725E7EB1A00E21BA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E73034E925E7EB1A00E21BA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E73034EB25E7EB1A00E21BA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E73034EB25E7EB1A00E21BA5 /* FriendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendController.swift; sourceTree = "<group>"; };
 		E73034EE25E7EB1A00E21BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E73034F125E7EB1A00E21BA5 /* messenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = messenger.xcdatamodel; sourceTree = "<group>"; };
 		E73034F325E7EB1C00E21BA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 				E730350F25E8F60300E21BA5 /* CustomTabBarController.swift */,
 				E73034E725E7EB1A00E21BA5 /* AppDelegate.swift */,
 				E73034E925E7EB1A00E21BA5 /* SceneDelegate.swift */,
-				E73034EB25E7EB1A00E21BA5 /* ViewController.swift */,
+				E73034EB25E7EB1A00E21BA5 /* FriendController.swift */,
 				E73034ED25E7EB1A00E21BA5 /* Main.storyboard */,
 				E73034F325E7EB1C00E21BA5 /* Assets.xcassets */,
 				E73034F525E7EB1C00E21BA5 /* LaunchScreen.storyboard */,
@@ -164,7 +164,7 @@
 				E730350D25E8E73700E21BA5 /* ChatLogController.swift in Sources */,
 				E730351725E9478400E21BA5 /* Friend+CoreDataClass.swift in Sources */,
 				E730351025E8F60300E21BA5 /* CustomTabBarController.swift in Sources */,
-				E73034EC25E7EB1A00E21BA5 /* ViewController.swift in Sources */,
+				E73034EC25E7EB1A00E21BA5 /* FriendController.swift in Sources */,
 				E730351825E9478400E21BA5 /* Friend+CoreDataProperties.swift in Sources */,
 				E73034E825E7EB1A00E21BA5 /* AppDelegate.swift in Sources */,
 				E73034EA25E7EB1A00E21BA5 /* SceneDelegate.swift in Sources */,

@@ -2,7 +2,7 @@
 //  Friend+CoreDataProperties.swift
 //  messenger
 //
-//  Created by HieuTong on 2/26/21.
+//  Created by HieuTong on 2/28/21.
 //
 //
 
@@ -19,6 +19,7 @@ extension Friend {
     @NSManaged public var name: String?
     @NSManaged public var profileImageName: String?
     @NSManaged public var messages: NSSet?
+    @NSManaged public var lastMessage: Message?
 
 }
 
